@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: Takes longer than sort2 to sort the random50000.txt file and the time taken to sort the 5000 element file is noticeably less than the time taken to sort the 50000 element file.
+
+sort2 uses: Merge sort
+
+How do you know?: The time taken to sort the random5000.txt compared to the random50000.txt file only increases by a small amount, therefore, Big O complexity of O(nlogn).
+
+sort3 uses: Selection sort
+
+How do you know?: Takes a long time checking the sorted file of 50000 elements, the longest compared to both sort1 and sort2, due to it not having a condition to check if the list is already sorted.

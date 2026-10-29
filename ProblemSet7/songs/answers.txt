@@ -1,0 +1,3 @@
+Their aura would be calm.
+
+The aura could be calculated using a weighted sum based on how much they listen to a song.
