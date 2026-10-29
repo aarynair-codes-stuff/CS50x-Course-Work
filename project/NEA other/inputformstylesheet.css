@@ -1,0 +1,36 @@
+body{
+    color: black;
+    background-color: #070a2a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+div{
+    text-align: left;
+    background-color: white;
+    height: 1050px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 65px;
+    padding-top: 75px;
+    border: solid 1px #060a2e;
+    border-collapse: separate; 
+    border-spacing: 0 10px; 
+    border-radius: 10px;
+    margin: -10px, 20px, 0px, 20px;
+}
+footer {
+    margin-top: -1500px;
+}
+#title{
+    color: white;
+    font-size: xx-large;
+}
+#Submit{
+    background-color: #7c90ea;
+    border-radius: 30px;
+    font-size: x-large;
+    border-color: #7c90ea;
+    border-style: hidden;
+    padding: 20px;
+    margin-left: 45%;
+}

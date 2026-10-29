@@ -1,0 +1,75 @@
+body{
+  color: #0b0e2e;
+  background-color: #070a2a;
+  font-family: 'Hanken Grotesk', sans-serif;
+  text-align: center;
+}
+#title{
+  color: white;
+  font-size: 75px;
+}
+#timeline{
+  background-image: url('timeline_arrow_new.jpg');
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size: cover;
+  border-radius: 25px;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+nav{
+position: fixed;
+}
+
+nav ul{
+list-style: none;
+background-color: #070a2a;
+overflow: hidden;
+margin: 0;
+padding:0;
+}
+
+nav ul li{
+float: left;
+}
+
+nav ul li a{
+display: block;
+color: aliceblue;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+border-color: black;
+}
+
+nav ul li a:hover {
+background-color:  #b5c4fa;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between; /* left/right alignment */
+    margin: 20px 0; /* some space above/below */
+    width: 100%; /* full width of parent */
+}
+
+.button-container input,
+.button-container button {
+  background-color: #7c90ea;
+  border-radius: 30px;
+  font-size: x-large;
+  border-color: #7c90ea;
+  border-style: hidden;
+  padding: 20px;
+}
+
+.button-container input {
+    background-color: #7c90ea; /* Submit button */
+    color: white;
+}
+
+.button-container button {
+    color: white;
+}

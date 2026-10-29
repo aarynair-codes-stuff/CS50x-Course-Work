@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    color: #0b0e2e;
+    background-color: #070a2a;
+    font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+}
+
+p{
+    color: #6c718c;   
+}
+
+table { 
+    border-collapse: separate; 
+    border-spacing: 0 10px; 
+    margin: -10px, 20px, 0px, 20px;
+    width: 100%;
+}
+
+td {
+    border: solid 1px #060a2e;
+    border-style: solid none;
+    padding: 1px;
+    background-color: #b5c4fa;
+
+}
+td:first-child {
+    border-left-style: solid;
+    border-top-left-radius: 10px; 
+    border-bottom-left-radius: 10px;
+}
+td:last-child {
+    border-right-style: solid;
+    border-bottom-right-radius: 10px; 
+    border-top-right-radius: 10px; 
+}
+#skills{
+    color: white;
+    font-size: 75px;
+}
+#submit{
+    background-color: #7c90ea;
+    border-radius: 30px;
+    font-size: x-large;
+    border-color: #7c90ea;
+    border-style: hidden;
+    padding: 20px;
+}
+
+.left-title-header{
+    font-size: xx-large;
+    text-align: left;
+    padding-left: 20px;
+
+}
+.right-title-header{
+    font-size: xx-large;
+    text-align: right;
+    padding-right: 20px;
+
+}
+.left-title{
+    font-size: x-large;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.right-title{
+    font-size: x-large;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.leftp{
+    text-align: left;
+    padding-left: 20px;
+}
+
+.rightp{
+    text-align: right;
+    padding-right: 20px;
+}
+
+.text-area-left{
+    float: left;
+    margin-left: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: large;
+}
+
+.text-area-right{
+    float: right;
+    margin-right: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: large;
+}
+
+nav{
+position: fixed;
+}
+
+nav ul{
+list-style: none;
+background-color: #070a2a;
+overflow: hidden;
+margin: 0;
+padding:0;
+}
+
+nav ul li{
+float: left;
+}
+
+nav ul li a{
+display: block;
+color: aliceblue;
+text-align: center;
+padding: 14px 20px;
+text-decoration: none;
+border-color: black;
+}
+
+nav ul li a:hover {
+background-color:  #b5c4fa;
+}

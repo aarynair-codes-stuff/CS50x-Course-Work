@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+  background-color: #070a2a;
+  font-family: 'Hanken Grotesk', sans-serif;
+  text-align: center
+}
+
+form{
+  color: #0b0e2e;
+}
+
+div{
+  display: inline-block;
+  margin: 10px auto;
+  background-color: #dee2fb;
+  height: 250px;
+  width: 750px;
+  font-size: large;
+}
+
+#Reg{
+  color: aliceblue;
+  font-size: 75px;
+}
+
+#Submit{
+  background-color: #7c90ea;
+  border-radius: 20px;
+  font-size: large;
+  border-color: #7c90ea;
+  border-style: hidden;
+  padding: 10px;
+}
+
+input[type="text"], textarea {
+  background-color : #6c718c; 
+  color: aliceblue;
+  border: 1px solid black;
+  box-shadow: none;
+}
+
+input[type="password"]{
+  background-color : #6c718c; 
+  color: aliceblue;
+  border: 1px solid black;
+  box-shadow: none;
+}
+
+.form-error{
+  color: aliceblue;
+  font-size: 35px;
+}
+
+.form-success{
+  color: aliceblue;
+  font-size: 50px;
+}
+
+.login-info{
+  color: aliceblue;
+  font-size: 15px;
+}
+
+a{
+  position: static;
+  font-size: 40px;
+}
+
+a:link {
+  color: #b5c4fa;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #b5c4fa;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7c90ea;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
