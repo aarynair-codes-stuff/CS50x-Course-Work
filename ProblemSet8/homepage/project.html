@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link href="pagestyles.css" rel="stylesheet">
+        <title>Projects</title>
+    </head>
+    <body>
+        <nav class="navbar bg-primary" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="competitions.html">Competitions</a>
+                        <a class="nav-link" href="courses.html">Courses</a>
+                        <a class="nav-link active" aria-current="page" href="project.html">Projects</a>
+                        <a class="nav-link" href="workexperience.html">Work Experience</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <hr>
+        <h1>Computer Science Coursework</h1>
+        <br>
+        <h2>Student Application Helper Software</h2>
+        <br>
+        <p>I created a website using HTML, CSS, JS, PHP, and SQL which uses an account based system with input validation. The program allows the user to plan and colour
+            code activities on a calendar. When adding an event to the calendar, the user can tag it with skills and details about the event which would automatically
+            create a input field for the event on the skills page where they can describe how they demonstrated that skill. Finally, all events in the calendar will be
+            displayed on the timeline where they can reflect on it and save the timeline as a pdf.
+        </p>
+        <br>
+        <table id="table">
+            <tr>
+                <td>
+                    <button id="login" onclick="change('login')">Login</button>
+                </td>
+                <td>
+                    <button id="signup" onclick="change('signup')">Sign Up</button>
+                </td>
+                <td>
+                    <button id="calendar" onclick="change('calendar')">Calendar</button>
+                </td>
+                <td>
+                    <button id="input" onclick="change('input')">Input Field</button>
+                </td>
+                <td>
+                    <button id="skills" onclick="change('skills')">Skills</button>
+                </td>
+                <td>
+                    <button id="timeline" onclick="change('timeline')">Timeline</button>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <h3 id="page">Login Page</h3>
+        <img alt="photo of project homepage" src="/items/login.png" id="image">
+        <hr>
+
+        <script>
+            function change(text)
+            {
+                const page = document.getElementById("page");
+                const img = document.getElementById("image");
+                if (text == "login")
+                {
+                    page.innerHTML = "Login Page";
+                }
+                else if (text == "signup")
+                {
+                    page.innerHTML = "Sign Up Page";
+                }
+                else if (text == "calendar")
+                {
+                    page.innerHTML = "Calendar Page";
+                }
+                else if (text == "input")
+                {
+                    page.innerHTML = "Input Field";
+                }
+                else if (text == "skills")
+                {
+                    page.innerHTML = "Skills Page";
+                }
+                else if (text == "timeline")
+                {
+                    page.innerHTML = "Timeline Page";
+                }
+                img.src = "/items/" + text + ".png";
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>

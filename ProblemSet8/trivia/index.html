@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                 <h3>What is Batman's real name?</h3>
+                 <button id="wrong1">Harvey Dent</button>
+                 <button id="wrong2">Jack Grimm</button>
+                 <button id="right1">Bruce Wayne</button>
+                 <p id="message1"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                 <h3>Who is the main writer for Absolute Batman?</h3>
+                 <form>
+                    <input autocomplete="off" id="scott" type="text">
+                    <input type="submit" id="submit">
+                 </form>
+                 <p id="message2"></p>
+            </div>
+        </div>
+        <script>
+            // Question 1
+            let message1 = document.querySelector('#message1');
+            document.querySelector('#wrong1').addEventListener('click', function() {
+                let button = document.querySelector('#wrong1');
+                button.style.backgroundColor = 'red';
+                message1.innerHTML = 'Incorrect';
+            });
+            document.querySelector('#wrong2').addEventListener('click', function() {
+                let button = document.querySelector('#wrong2');
+                button.style.backgroundColor = 'red';
+                message1.innerHTML = 'Incorrect';
+            });
+            document.querySelector('#right1').addEventListener('click', function() {
+                let button = document.querySelector('#right1');
+                button.style.backgroundColor = 'green';
+                message1.innerHTML = 'Correct!';
+            });
+
+            // Question 2
+            let input = document.querySelector('#scott');
+            let message2 = document.querySelector('#message2');
+            document.querySelector('#submit').addEventListener('click', function() {
+                if (input.value == "Scott Snyder")
+                {
+                    input.style.backgroundColor = 'green';
+                    message2.innerHTML = 'Correct!';
+                }
+                else
+                {
+                    input.style.backgroundColor = 'red';
+                    message2.innerHTML = 'Incorrect';
+                }
+            });
+        </script>
+    </body>
+</html>

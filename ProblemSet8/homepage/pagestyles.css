@@ -1,0 +1,30 @@
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 50%;
+}
+body
+{
+    background-color: #4287f5;
+}
+#page
+{
+    text-align: center;
+}
+#table
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+p
+{
+    text-align
+}
+.title
+{
+    text-decoration-line: underline;
+    font-size: 25px;
+}

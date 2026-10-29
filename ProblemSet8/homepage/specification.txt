@@ -1,0 +1,4 @@
+10 HTML Tags: nav, div, a, button, span, h1, h2, p, img, script
+5 CSS Properties: display, margin-left, margin-right, height, width
+I used Javascript to: Implement a image and timeline switching feature using buttons
+I used Bootstrap to: Implement a navigation bar with styling from Bootstrap

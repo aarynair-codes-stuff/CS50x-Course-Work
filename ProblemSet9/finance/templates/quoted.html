@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    {% if info.name and info.price -%}
+        <p>The stock name is {{ info.name }} and its current price is {{ info.price | usd }}</p>
+    {%- else -%}
+        <p>Invalid Stock Symbol</p>
+    {%- endif %}
+{% endblock %}
